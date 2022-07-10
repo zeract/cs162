@@ -226,3 +226,119 @@ git status
 git add code/personal
 #1657457848
 git status
+#1657457851
+git add .
+#1657457929
+git commit -m '第一次提交'
+#1657457958
+git config --global user.email 583035146@qq.com
+#1657457964
+git config --global user.name zeract
+#1657457967
+git commit -m '第一次提交'
+#1657458166
+git remote add origin git@github.com:zeract/cs162.git
+#1657458182
+git push -u origin master
+#1657458328
+ssh-keygen -t rsa -C "583035146@qq.com"
+#1657458353
+cat ~/.ssh/id_rsa.pub
+#1657458452
+git push -u origin master
+#1657459929
+cd code
+#1657459932
+cd personal/
+#1657459936
+cd hw-intro/
+#1657459948
+make map
+#1657459951
+gdb map
+#1657460123
+git status
+#1657460137
+git add limits.c
+#1657460140
+git status
+#1657460160
+git add limits.c map.c recurse.c words/main.c words/word_count.c Makefile
+#1657460166
+git commit -m "Finished my first CS 162 assignment"
+#1657460179
+git push personal master
+#1657460191
+git push origin master
+#1657460231
+git push original master
+#1657460236
+git push origin master
+#1657460267
+git push -u origin master
+#1657460280
+git push origin master
+#1657460283
+git status
+#1657460289
+git push
+#1657460453
+ls -a
+#1657460458
+cd .
+#1657460463
+ls -a
+#1657460486
+rm .gitignore 
+#1657460512
+cd 
+#1657460516
+git status
+#1657460522
+git add .
+#1657460524
+git status
+#1657460534
+cd code
+#1657460537
+cd personal/
+#1657460544
+cd hw-http/
+#1657460547
+ls -a
+#1657460552
+rm .gitignore 
+#1657460554
+cd ..
+#1657460558
+cd hw-list/
+#1657460562
+rm .gitignore 
+#1657460565
+cd ..
+#1657460570
+cd hw-memory/
+#1657460573
+rm .gitignore 
+#1657460577
+cd ..
+#1657460581
+cd hw-malloc/
+#1657460586
+rm .gitignore 
+#1657460589
+cd ..
+#1657460597
+rm .git
+#1657460600
+rm .git/
+#1657460635
+rm -rf .git
+#1657460641
+ls -a
+#1657460649
+cd ..
+#1657460651
+cd 
+#1657460656
+git status
