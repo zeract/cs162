@@ -1,0 +1,70 @@
+[2022-05-25 21:49:04.352] [remoteagent] [info] Extension host agent started.
+[2022-05-25 21:49:04.629] [remoteagent] [info] [127.0.0.1][e6c9fec7][ManagementConnection] New connection established.
+[2022-05-25 21:49:04.688] [remoteagent] [info] [127.0.0.1][ee6546a3][ExtensionHostConnection] New connection established.
+[2022-05-25 21:49:04.694] [remoteagent] [info] [127.0.0.1][ee6546a3][ExtensionHostConnection] <11997> Launched Extension Host Process.
+[2022-05-25 21:49:11.295] [remoteagent] [info] [127.0.0.1][e6c9fec7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-05-25 21:49:11.306] [remoteagent] [info] [127.0.0.1][ee6546a3][ExtensionHostConnection] <11997> Extension Host Process exited with code: 0, signal: null.
+[2022-05-25 21:49:11.306] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-05-25 21:49:17.759] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-05-25 21:49:17.760] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-05-25 21:49:18.089] [remoteagent] [info] [127.0.0.1][e57035f3][ManagementConnection] New connection established.
+[2022-05-25 21:49:18.254] [remoteagent] [info] [127.0.0.1][def5eb8f][ExtensionHostConnection] New connection established.
+[2022-05-25 21:49:18.266] [remoteagent] [info] [127.0.0.1][def5eb8f][ExtensionHostConnection] <12211> Launched Extension Host Process.
+[2022-05-25 21:49:46.223] [remoteagent] [info] Getting Manifest... ms-vscode.cpptools-extension-pack
+[2022-05-25 21:49:50.140] [remoteagent] [info] Getting Manifest... ms-vscode.cpptools-extension-pack
+[2022-05-25 21:49:50.175] [remoteagent] [info] Installing extension: ms-vscode.cpptools-extension-pack
+[2022-05-25 21:49:53.960] [remoteagent] [info] Extensions is already requested to install ms-vscode.cpptools-extension-pack
+[2022-05-25 21:49:55.457] [remoteagent] [info] Getting Manifest... ms-vscode.cpptools
+[2022-05-25 21:49:55.589] [remoteagent] [info] Getting Manifest... ms-vscode.cmake-tools
+[2022-05-25 21:49:56.166] [remoteagent] [info] Getting Manifest... twxs.cmake
+[2022-05-25 21:49:56.333] [remoteagent] [info] Getting Manifest... twxs.cmake
+[2022-05-25 21:49:56.400] [remoteagent] [info] Getting Manifest... jeff-hykin.better-cpp-syntax
+[2022-05-25 21:49:56.434] [remoteagent] [info] Getting Manifest... ms-vscode.cpptools-themes
+[2022-05-25 21:49:56.449] [remoteagent] [info] Getting Manifest... cschlosser.doxdocgen
+[2022-05-25 21:49:56.591] [remoteagent] [info] Installing extension: ms-vscode.cpptools
+[2022-05-25 21:49:56.591] [remoteagent] [info] Installing extension: ms-vscode.cmake-tools
+[2022-05-25 21:49:56.591] [remoteagent] [info] Installing extension: twxs.cmake
+[2022-05-25 21:49:56.592] [remoteagent] [info] Extension is already requested to install twxs.cmake
+[2022-05-25 21:49:56.592] [remoteagent] [info] Installing extension: jeff-hykin.better-cpp-syntax
+[2022-05-25 21:49:56.592] [remoteagent] [info] Installing extension: ms-vscode.cpptools-themes
+[2022-05-25 21:49:56.592] [remoteagent] [info] Installing extension: cschlosser.doxdocgen
+[2022-05-25 21:49:57.796] [remoteagent] [info] Downloaded extension: twxs.cmake /home/vagrant/.vscode-server/data/CachedExtensionVSIXs/twxs.cmake-0.0.17
+[2022-05-25 21:49:58.093] [remoteagent] [info] Extracted extension to /home/vagrant/.vscode-server/extensions/.7fb12911-b1b2-4015-8b91-92a00d18b978: twxs.cmake
+[2022-05-25 21:49:58.100] [remoteagent] [info] Renamed to /home/vagrant/.vscode-server/extensions/twxs.cmake-0.0.17
+[2022-05-25 21:49:58.102] [remoteagent] [info] Extracting completed. twxs.cmake
+[2022-05-25 21:49:58.110] [remoteagent] [info] Downloaded extension: jeff-hykin.better-cpp-syntax /home/vagrant/.vscode-server/data/CachedExtensionVSIXs/jeff-hykin.better-cpp-syntax-1.15.14
+[2022-05-25 21:49:58.134] [remoteagent] [info] Extracted extension to /home/vagrant/.vscode-server/extensions/.47f9e6d7-2585-4908-95a7-97db2684ffc8: jeff-hykin.better-cpp-syntax
+[2022-05-25 21:49:58.143] [remoteagent] [info] Renamed to /home/vagrant/.vscode-server/extensions/jeff-hykin.better-cpp-syntax-1.15.14
+[2022-05-25 21:49:58.144] [remoteagent] [info] Extracting completed. jeff-hykin.better-cpp-syntax
+[2022-05-25 21:49:58.283] [remoteagent] [info] Downloaded extension: ms-vscode.cmake-tools /home/vagrant/.vscode-server/data/CachedExtensionVSIXs/ms-vscode.cmake-tools-1.10.5
+[2022-05-25 21:49:58.524] [remoteagent] [info] Extracted extension to /home/vagrant/.vscode-server/extensions/.e30b9f3e-a11e-4b54-878c-fac449763bbe: ms-vscode.cmake-tools
+[2022-05-25 21:49:58.532] [remoteagent] [info] Renamed to /home/vagrant/.vscode-server/extensions/ms-vscode.cmake-tools-1.10.5
+[2022-05-25 21:49:58.535] [remoteagent] [info] Extracting completed. ms-vscode.cmake-tools
+[2022-05-25 21:49:58.833] [remoteagent] [info] Downloaded extension: cschlosser.doxdocgen /home/vagrant/.vscode-server/data/CachedExtensionVSIXs/cschlosser.doxdocgen-1.4.0
+[2022-05-25 21:49:59.146] [remoteagent] [info] Downloaded extension: ms-vscode.cpptools-themes /home/vagrant/.vscode-server/data/CachedExtensionVSIXs/ms-vscode.cpptools-themes-1.0.0
+[2022-05-25 21:49:59.187] [remoteagent] [info] Extracted extension to /home/vagrant/.vscode-server/extensions/.6ab13865-d09f-495d-8e2c-d3f1d0d8bb50: ms-vscode.cpptools-themes
+[2022-05-25 21:49:59.193] [remoteagent] [info] Renamed to /home/vagrant/.vscode-server/extensions/ms-vscode.cpptools-themes-1.0.0
+[2022-05-25 21:49:59.195] [remoteagent] [info] Extracting completed. ms-vscode.cpptools-themes
+[2022-05-25 21:49:59.887] [remoteagent] [info] Extracted extension to /home/vagrant/.vscode-server/extensions/.b42f734f-5d80-4ef8-983f-6468120c65a8: cschlosser.doxdocgen
+[2022-05-25 21:49:59.896] [remoteagent] [info] Renamed to /home/vagrant/.vscode-server/extensions/cschlosser.doxdocgen-1.4.0
+[2022-05-25 21:49:59.898] [remoteagent] [info] Extracting completed. cschlosser.doxdocgen
+[2022-05-25 21:50:02.441] [remoteagent] [info] Downloaded extension: ms-vscode.cpptools /home/vagrant/.vscode-server/data/CachedExtensionVSIXs/ms-vscode.cpptools-1.9.8-linux-x64
+[2022-05-25 21:50:05.041] [remoteagent] [info] Extracted extension to /home/vagrant/.vscode-server/extensions/.8c345cba-ccf7-4c1f-8c0a-018739a8a4d5: ms-vscode.cpptools
+[2022-05-25 21:50:05.054] [remoteagent] [info] Renamed to /home/vagrant/.vscode-server/extensions/ms-vscode.cpptools-1.9.8-linux-x64
+[2022-05-25 21:50:05.077] [remoteagent] [info] Extracting completed. ms-vscode.cpptools
+[2022-05-25 21:50:07.387] [remoteagent] [info] Downloaded extension: ms-vscode.cpptools-extension-pack /home/vagrant/.vscode-server/data/CachedExtensionVSIXs/ms-vscode.cpptools-extension-pack-1.2.0
+[2022-05-25 21:50:07.395] [remoteagent] [info] Extracted extension to /home/vagrant/.vscode-server/extensions/.9308f5de-e9f1-4714-9b02-10c2cd0b7a0b: ms-vscode.cpptools-extension-pack
+[2022-05-25 21:50:07.399] [remoteagent] [info] Renamed to /home/vagrant/.vscode-server/extensions/ms-vscode.cpptools-extension-pack-1.2.0
+[2022-05-25 21:50:07.400] [remoteagent] [info] Extracting completed. ms-vscode.cpptools-extension-pack
+[2022-05-25 21:50:07.400] [remoteagent] [info] Extension installed successfully: twxs.cmake
+[2022-05-25 21:50:07.401] [remoteagent] [info] Extension installed successfully: jeff-hykin.better-cpp-syntax
+[2022-05-25 21:50:07.401] [remoteagent] [info] Extension installed successfully: ms-vscode.cmake-tools
+[2022-05-25 21:50:07.401] [remoteagent] [info] Extension installed successfully: ms-vscode.cpptools-themes
+[2022-05-25 21:50:07.401] [remoteagent] [info] Extension installed successfully: cschlosser.doxdocgen
+[2022-05-25 21:50:07.401] [remoteagent] [info] Extension installed successfully: ms-vscode.cpptools
+[2022-05-25 21:50:07.401] [remoteagent] [info] Extension installed successfully: ms-vscode.cpptools-extension-pack
+[2022-05-25 21:54:17.760] [remoteagent] [info] New EH opened, aborting shutdown
+[2022-05-25 22:57:24.622] [remoteagent] [info] [127.0.0.1][e57035f3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-05-25 22:57:24.661] [remoteagent] [info] [127.0.0.1][def5eb8f][ExtensionHostConnection] <12211> Extension Host Process exited with code: 0, signal: null.
+[2022-05-25 22:57:24.661] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-05-25 23:02:24.662] [remoteagent] [info] Last EH closed, shutting down

@@ -1,0 +1,30 @@
+[2022-05-27 15:38:40.081] [remoteagent] [info] Extension host agent started.
+[2022-05-27 15:38:40.565] [remoteagent] [info] [127.0.0.1][6429feeb][ManagementConnection] New connection established.
+[2022-05-27 15:38:40.597] [remoteagent] [info] [127.0.0.1][50222d19][ExtensionHostConnection] New connection established.
+[2022-05-27 15:38:40.608] [remoteagent] [info] [127.0.0.1][50222d19][ExtensionHostConnection] <24500> Launched Extension Host Process.
+[2022-05-27 15:38:40.967] [remoteagent] [error] [File Watcher (node.js)] Error: EACCES: permission denied, stat '/home/ubuntu/.vscode'
+[2022-05-27 15:38:40.967] [remoteagent] [error] [File Watcher (node.js)] Error: EACCES: permission denied, stat '/home/ubuntu/.vscode/settings.json'
+[2022-05-27 15:38:40.967] [remoteagent] [error] [File Watcher (node.js)] Error: EACCES: permission denied, stat '/home/ubuntu/.vscode/tasks.json'
+[2022-05-27 15:38:40.967] [remoteagent] [error] [File Watcher (node.js)] Error: EACCES: permission denied, stat '/home/ubuntu/.vscode/launch.json'
+[2022-05-27 15:38:41.090] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/ubuntu)
+[2022-05-27 15:38:41.091] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+[2022-05-27 15:38:41.176] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/ubuntu)
+[2022-05-27 15:38:41.177] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+[2022-05-27 15:38:41.279] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/ubuntu)
+[2022-05-27 15:38:41.279] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+[2022-05-27 15:38:41.365] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/ubuntu)
+[2022-05-27 15:38:41.365] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+[2022-05-27 15:38:41.449] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/ubuntu)
+[2022-05-27 15:38:41.449] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+[2022-05-27 15:38:41.534] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/ubuntu)
+[2022-05-27 15:38:41.534] [remoteagent] [error] [File Watcher (universal)] gave up attempting to restart watcher after error: Bad file descriptor
+[2022-05-27 15:38:42.747] [remoteagent] [error] ["Error: Could not find pty on pty host","    at m._throwIfNoPty (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:20:5333)","    at m.updateTitle (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:20:1673)","    at Object.call (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:13:8361)","    at g.onPromise (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:12:4879)","    at g.onRawMessage (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:12:4267)","    at /home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:12:3555","    at D.invoke (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:8:145)","    at N.deliver (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:8:2271)","    at h.fire (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:8:1849)","    at process.p (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:6:34973)","    at process.emit (node:events:390:28)","    at emit (node:internal/child_process:917:12)","    at processTicksAndRejections (node:internal/process/task_queues:84:21)"]
+[2022-05-27 15:39:14.832] [remoteagent] [info] [127.0.0.1][0422598a][ManagementConnection] New connection established.
+[2022-05-27 15:39:14.947] [remoteagent] [info] [127.0.0.1][c664a9c4][ExtensionHostConnection] New connection established.
+[2022-05-27 15:39:14.955] [remoteagent] [info] [127.0.0.1][c664a9c4][ExtensionHostConnection] <24895> Launched Extension Host Process.
+[2022-05-27 15:39:21.728] [remoteagent] [info] [127.0.0.1][0422598a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-05-27 15:39:21.739] [remoteagent] [info] [127.0.0.1][c664a9c4][ExtensionHostConnection] <24895> Extension Host Process exited with code: 0, signal: null.
+[2022-05-27 15:39:32.370] [remoteagent] [info] [127.0.0.1][6429feeb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-05-27 15:39:32.382] [remoteagent] [info] [127.0.0.1][50222d19][ExtensionHostConnection] <24500> Extension Host Process exited with code: 0, signal: null.
+[2022-05-27 15:39:32.382] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-05-27 15:44:32.383] [remoteagent] [info] Last EH closed, shutting down

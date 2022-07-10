@@ -1,0 +1,92 @@
+[2022-05-25T13:49:20.019Z] Validating found git in: git
+[2022-05-25T13:49:20.119Z] Using git 2.17.1 from git
+[2022-05-25T13:49:20.170Z] > git rev-parse --show-toplevel [38ms]
+[2022-05-25T13:49:20.170Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-25T13:49:20.195Z] > git rev-parse --show-toplevel [17ms]
+[2022-05-25T13:49:20.195Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-25T13:49:20.202Z] > git rev-parse --show-toplevel [3ms]
+[2022-05-25T13:49:20.202Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-25T13:49:20.207Z] > git rev-parse --show-toplevel [2ms]
+[2022-05-25T13:49:20.212Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2022-05-25T13:49:20.217Z] Open repository: /home/vagrant/.fzf
+[2022-05-25T13:49:20.228Z] > git rev-parse --show-toplevel [0ms]
+[2022-05-25T13:49:20.228Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-25T13:49:20.233Z] > git rev-parse --show-toplevel [1ms]
+[2022-05-25T13:49:20.233Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-25T13:49:20.238Z] > git rev-parse --show-toplevel [0ms]
+[2022-05-25T13:49:20.238Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-25T13:49:20.301Z] > git status -z -uall [78ms]
+[2022-05-25T13:49:20.307Z] > git symbolic-ref --short HEAD [1ms]
+[2022-05-25T13:49:20.307Z] fatal: ref HEAD is not a symbolic ref
+[2022-05-25T13:49:20.312Z] > git rev-parse HEAD [0ms]
+[2022-05-25T13:49:20.322Z] > git remote --verbose [2ms]
+[2022-05-25T13:49:20.323Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-05-25T13:49:20.330Z] > git config --get commit.template [1ms]
+[2022-05-25T13:49:20.530Z] > git rev-parse --show-toplevel [15ms]
+[2022-05-25T13:49:20.530Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-25T13:49:20.536Z] > git rev-parse --show-toplevel [2ms]
+[2022-05-25T13:49:20.537Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-25T13:49:20.542Z] > git rev-parse --show-toplevel [2ms]
+[2022-05-25T13:49:20.542Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-25T13:49:20.787Z] > git check-ignore -v -z --stdin [2ms]
+[2022-05-25T13:49:37.193Z] > git rev-parse --show-toplevel [6ms]
+[2022-05-25T13:49:37.199Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2022-05-25T13:49:37.201Z] Open repository: /home/vagrant/code/personal
+[2022-05-25T13:49:37.430Z] > git show --textconv :proj-pregame/src/userprog/pagedir.c [6ms]
+[2022-05-25T13:49:37.432Z] > git ls-files --stage -- /home/vagrant/code/personal/proj-pregame/src/userprog/pagedir.c [2ms]
+[2022-05-25T13:49:37.438Z] > git cat-file -s ca72df21fb5d31b311b942cce346e42bbcee88ea [2ms]
+[2022-05-25T13:49:37.889Z] > git check-ignore -v -z --stdin [4ms]
+[2022-05-25T13:49:38.048Z] > git status -z -uall [842ms]
+[2022-05-25T13:49:38.053Z] > git symbolic-ref --short HEAD [1ms]
+[2022-05-25T13:49:38.058Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-05-25T13:49:38.067Z] > git remote --verbose [1ms]
+[2022-05-25T13:49:38.067Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+[2022-05-25T13:49:38.073Z] > git config --get commit.template [1ms]
+[2022-05-25T13:50:08.422Z] > git rev-parse --show-toplevel [3ms]
+[2022-05-25T13:50:08.422Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-25T13:50:08.509Z] > git rev-parse --show-toplevel [1ms]
+[2022-05-25T13:50:08.509Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-25T13:50:08.551Z] > git rev-parse --show-toplevel [2ms]
+[2022-05-25T13:50:08.551Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-25T13:50:10.628Z] > git check-ignore -v -z --stdin [5ms]
+[2022-05-25T13:50:12.219Z] > git show --textconv :proj-pregame/src/userprog/pagedir.c [14ms]
+[2022-05-25T13:50:12.220Z] > git ls-files --stage -- /home/vagrant/code/personal/proj-pregame/src/userprog/pagedir.c [2ms]
+[2022-05-25T13:50:12.237Z] > git cat-file -s ca72df21fb5d31b311b942cce346e42bbcee88ea [5ms]
+[2022-05-25T13:50:19.963Z] > git check-ignore -v -z --stdin [2ms]
+[2022-05-25T13:50:20.794Z] > git check-ignore -v -z --stdin [2ms]
+[2022-05-25T13:50:23.004Z] > git check-ignore -v -z --stdin [2ms]
+[2022-05-25T13:50:23.998Z] > git check-ignore -v -z --stdin [2ms]
+[2022-05-25T13:50:24.884Z] > git check-ignore -v -z --stdin [2ms]
+[2022-05-25T13:50:26.277Z] > git show --textconv :proj-pregame/src/examples/cp.c [6ms]
+[2022-05-25T13:50:26.278Z] > git ls-files --stage -- /home/vagrant/code/personal/proj-pregame/src/examples/cp.c [2ms]
+[2022-05-25T13:50:26.284Z] > git cat-file -s a244f739504441b93c95479b5d285339a1c60c3a [2ms]
+[2022-05-25T13:50:36.143Z] > git show --textconv :proj-pregame/src/examples/cmp.c [8ms]
+[2022-05-25T13:50:36.145Z] > git ls-files --stage -- /home/vagrant/code/personal/proj-pregame/src/examples/cmp.c [3ms]
+[2022-05-25T13:50:36.150Z] > git cat-file -s db53ca798c0d94b6447c28fb5256b75fe810dfb9 [1ms]
+[2022-05-25T13:50:37.492Z] > git show --textconv :proj-pregame/src/examples/cat.c [8ms]
+[2022-05-25T13:50:37.493Z] > git ls-files --stage -- /home/vagrant/code/personal/proj-pregame/src/examples/cat.c [2ms]
+[2022-05-25T13:50:37.499Z] > git cat-file -s 6b9f7dfb78992e5cbe82dc084f1dbb972a772790 [2ms]
+[2022-05-25T13:50:38.957Z] > git show --textconv :proj-pregame/src/examples/bubsort.c [8ms]
+[2022-05-25T13:50:38.958Z] > git ls-files --stage -- /home/vagrant/code/personal/proj-pregame/src/examples/bubsort.c [2ms]
+[2022-05-25T13:50:38.964Z] > git cat-file -s 57ab0631d6ca6460d9035b238df1486f62518217 [1ms]
+[2022-05-25T13:50:40.009Z] > git show --textconv :proj-pregame/src/examples/cat.c [8ms]
+[2022-05-25T13:50:40.010Z] > git ls-files --stage -- /home/vagrant/code/personal/proj-pregame/src/examples/cat.c [2ms]
+[2022-05-25T13:50:40.015Z] > git cat-file -s 6b9f7dfb78992e5cbe82dc084f1dbb972a772790 [1ms]
+[2022-05-25T13:50:56.785Z] > git check-ignore -v -z --stdin [1ms]
+[2022-05-25T13:50:58.128Z] > git check-ignore -v -z --stdin [2ms]
+[2022-05-25T13:50:59.553Z] > git show --textconv :hw-malloc/mm_alloc.c [8ms]
+[2022-05-25T13:50:59.554Z] > git ls-files --stage -- /home/vagrant/code/personal/hw-malloc/mm_alloc.c [1ms]
+[2022-05-25T13:50:59.559Z] > git cat-file -s 5ab4d529fe583f4a7b433fea083d60f7de6969e9 [1ms]
+[2022-05-25T13:51:07.841Z] > git check-ignore -v -z --stdin [2ms]
+[2022-05-25T13:51:10.707Z] > git check-ignore -v -z --stdin [1ms]
+[2022-05-25T13:51:12.359Z] > git show --textconv :hw-intro/limits.c [5ms]
+[2022-05-25T13:51:12.361Z] > git ls-files --stage -- /home/vagrant/code/personal/hw-intro/limits.c [2ms]
+[2022-05-25T13:51:12.366Z] > git cat-file -s fccabc8fbe7d26d69e4545b9e0eaa7f3861503cb [1ms]
+[2022-05-25T13:51:15.192Z] > git show --textconv :hw-intro/map.c [13ms]
+[2022-05-25T13:51:15.195Z] > git ls-files --stage -- /home/vagrant/code/personal/hw-intro/map.c [4ms]
+[2022-05-25T13:51:15.200Z] > git cat-file -s 16dac20e6be6b3c3cd90682d37ece3624bf20ed8 [1ms]
+[2022-05-25T13:51:16.567Z] > git show --textconv :hw-intro/recurse.c [7ms]
+[2022-05-25T13:51:16.569Z] > git ls-files --stage -- /home/vagrant/code/personal/hw-intro/recurse.c [2ms]
+[2022-05-25T13:51:16.574Z] > git cat-file -s fae25064ff2c4f419e6a04695cd87fc05dab62f4 [1ms]
+[2022-05-25T13:51:20.209Z] > git rev-parse --show-toplevel [4ms]
+[2022-05-25T13:51:20.209Z] fatal: not a git repository (or any of the parent directories): .git

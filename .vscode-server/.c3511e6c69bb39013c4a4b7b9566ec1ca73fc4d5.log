@@ -1,0 +1,74 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:46333 (IPv4)
+Extension host agent listening on 46333
+
+[15:38:40] Extension host agent started.
+[15:38:40] [127.0.0.1][6429feeb][ManagementConnection] New connection established.
+[15:38:40] [127.0.0.1][50222d19][ExtensionHostConnection] New connection established.
+[15:38:40] [127.0.0.1][50222d19][ExtensionHostConnection] <24500> Launched Extension Host Process.
+[15:38:40] [File Watcher (node.js)] Error: EACCES: permission denied, stat '/home/ubuntu/.vscode'
+[15:38:40] [File Watcher (node.js)] Error: EACCES: permission denied, stat '/home/ubuntu/.vscode/settings.json'
+[15:38:40] [File Watcher (node.js)] Error: EACCES: permission denied, stat '/home/ubuntu/.vscode/tasks.json'
+[15:38:40] [File Watcher (node.js)] Error: EACCES: permission denied, stat '/home/ubuntu/.vscode/launch.json'
+[15:38:41] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/ubuntu)
+[15:38:41] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+[15:38:41] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/ubuntu)
+[15:38:41] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/home/ubuntu'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/home/ubuntu'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/home/ubuntu'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/home/ubuntu'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/home/ubuntu'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/home/ubuntu'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/home/ubuntu'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/home/ubuntu'
+}
+[node.js fs] readdir with filetypes failed with error:  [Error: EACCES: permission denied, scandir '/home/ubuntu'] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'scandir',
+  path: '/home/ubuntu'
+}
+[15:38:41] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/ubuntu)
+[15:38:41] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+[15:38:41] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/ubuntu)
+[15:38:41] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+[15:38:41] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/ubuntu)
+[15:38:41] [File Watcher (universal)] restarting watcher after error: Bad file descriptor
+[15:38:41] [File Watcher (parcel)] Unexpected error: Bad file descriptor (EUNKNOWN) (path: /home/ubuntu)
+[15:38:41] [File Watcher (universal)] gave up attempting to restart watcher after error: Bad file descriptor
+rejected promise not handled within 1 second: Error: Could not find pty on pty host
+stack trace: Error: Could not find pty on pty host,    at m._throwIfNoPty (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:20:5333),    at m.updateTitle (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:20:1673),    at Object.call (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:13:8361),    at g.onPromise (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:12:4879),    at g.onRawMessage (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:12:4267),    at /home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:12:3555,    at D.invoke (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:8:145),    at N.deliver (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:8:2271),    at h.fire (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:8:1849),    at process.p (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:6:34973),    at process.emit (node:events:390:28),    at emit (node:internal/child_process:917:12),    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[15:38:42] [Error: Could not find pty on pty host,    at m._throwIfNoPty (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:20:5333),    at m.updateTitle (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:20:1673),    at Object.call (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:13:8361),    at g.onPromise (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:12:4879),    at g.onRawMessage (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:12:4267),    at /home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:12:3555,    at D.invoke (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:8:145),    at N.deliver (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:8:2271),    at h.fire (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:8:1849),    at process.p (/home/vagrant/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/out/vs/platform/terminal/node/ptyHostMain.js:6:34973),    at process.emit (node:events:390:28),    at emit (node:internal/child_process:917:12),    at processTicksAndRejections (node:internal/process/task_queues:84:21)]
+[15:39:14] [127.0.0.1][0422598a][ManagementConnection] New connection established.
+[15:39:14] [127.0.0.1][c664a9c4][ExtensionHostConnection] New connection established.
+[15:39:14] [127.0.0.1][c664a9c4][ExtensionHostConnection] <24895> Launched Extension Host Process.
+[15:39:21] [127.0.0.1][0422598a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:39:21] [127.0.0.1][c664a9c4][ExtensionHostConnection] <24895> Extension Host Process exited with code: 0, signal: null.
+[15:39:32] [127.0.0.1][6429feeb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:39:32] [127.0.0.1][50222d19][ExtensionHostConnection] <24500> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[15:39:32] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[15:44:32] Last EH closed, shutting down

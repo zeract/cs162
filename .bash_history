@@ -1,0 +1,228 @@
+#1653480939
+cd
+#1653480995
+cd ~/code/personal
+#1653481003
+git pull staff master
+#1653481467
+cd code
+#1653481479
+cd ~/code/personal
+#1653481509
+cd proj-pregame/
+#1653481514
+cd src/
+#1657448674
+make limits
+#1657448690
+limits
+#1657448699
+.\limits
+#1657448702
+./limits
+#1657449258
+chmod 777 hw-intro
+#1657449261
+cd ..
+#1657449267
+chomod 777 hw-intro
+#1657449275
+chmod 777 hw-intro
+#1657449279
+cd hw-intro/
+#1657449560
+chmod 777 /path/to/hw-intro
+#1657449575
+su root
+#1657449973
+cd code
+#1657449979
+cd ..
+#1657450038
+cd
+#1657450041
+cd code
+#1657450044
+cd personal/
+#1657450050
+cd hw-intro/
+#1657450064
+vim limits.c
+#1657450144
+make limits 
+#1657450151
+vim limits.c
+#1657450159
+make limits 
+#1657450178
+vim limits.c
+#1657450185
+make limits 
+#1657450194
+vim limits.c
+#1657450201
+make limits 
+#1657450209
+vim limits.c
+#1657450215
+make limits 
+#1657450220
+./limits 
+#1657450230
+vim limits.c
+#1657450243
+make limits 
+#1657450245
+./limits 
+#1657450270
+vim limits.c
+#1657450278
+make limits 
+#1657450279
+./limits 
+#1657450304
+vim limits.c
+#1657449998
+sudo su
+#1657450502
+cd 
+#1657450505
+cd code
+#1657450508
+cd personal/
+#1657450509
+cd
+#1657450518
+cd code
+#1657450519
+cd personal/
+#1657450523
+cd hw-intro/
+#1657450537
+vim limits.c
+#1657450569
+make limits.c
+#1657450571
+make limits
+#1657450576
+vim limits.c
+#1657450584
+make limits
+#1657450587
+./limits 
+#1657450623
+vim limits.c
+#1657450632
+make limits
+#1657450634
+./limits 
+#1657450669
+vim limits.c
+#1657450977
+make limits
+#1657450978
+./limits 
+#1657451016
+vim limits.c
+#1657451047
+make limits
+#1657451050
+vim limits.c
+#1657451063
+make limits
+#1657451067
+./limits 
+#1657451089
+vim limits.c
+#1657451102
+make limits
+#1657451104
+./limits 
+#1657452513
+chmod 777 limits.c
+#1657452539
+make limits
+#1657452544
+./limits 
+#1657452729
+make limits
+#1657452730
+./limits 
+#1657452758
+make limits
+#1657452759
+./limits 
+#1657452770
+make limits
+#1657452771
+./limits 
+#1657452797
+make limits
+#1657452798
+./limits 
+#1657452811
+make limits
+#1657452812
+./limits 
+#1657452825
+make limits
+#1657452826
+./limits 
+#1657452902
+make limits
+#1657452903
+./limits 
+#1657452920
+make limits
+#1657452921
+./limits 
+#1657452935
+make limits
+#1657452935
+./limits 
+#1657453077
+make limits
+#1657453078
+./limits 
+#1657453122
+make limits
+#1657453123
+./limits 
+#1657456735
+cd ..
+#1657456744
+git iniy
+#1657456746
+git init
+#1657456795
+git add *.c
+#1657456808
+git add LICENSE
+#1657457343
+git config --global user.name
+#1657457348
+git config --global user.email
+#1657457360
+git config -list
+#1657457368
+git config --lis
+#1657457369
+git config --list
+#1657457427
+git status
+#1657457442
+git add
+#1657457447
+git add.
+#1657457450
+git add .
+#1657457607
+git status
+#1657457635
+git add code/personal
+#1657457637
+git status
+#1657457845
+git add code/personal
+#1657457848
+git status
