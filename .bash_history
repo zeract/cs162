@@ -342,3 +342,63 @@ cd ..
 cd 
 #1657460656
 git status
+#1657460661
+git add .
+#1657460663
+git status
+#1657460705
+git push mater
+#1657460712
+git push master
+#1657460728
+git push origin master
+#1657460816
+git commit -m 'first commit'
+#1657460819
+git push origin master
+#1657460871
+cd code/
+#1657460886
+git rm --cached personal
+#1657460893
+git add personal
+#1657460908
+git commit -m 'commit'
+#1657460916
+git push origin master
+#1657461129
+cd ..
+#1657461172
+git remote add origin git@github.com:zeract/cs162.git
+#1657461190
+git push -u origin master
+#1657461304
+cd code
+#1657461308
+git remote add origin git@github.com:zeract/cs162.git
+#1657461311
+git push -u origin master
+#1657461317
+cd personal/
+#1657461319
+git remote add origin git@github.com:zeract/cs162.git
+#1657461322
+git push -u origin master
+#1657461522
+git status
+#1657461535
+git push
+#1657461600
+cd
+#1657461606
+git status
+#1657461609
+git push
+#1657461745
+cd
+#1657461761
+ssh-keygen -t rsa -C "583035146@qq.com"
+#1657461789
+cat ~/.ssh/id_rsa.pub
+#1657461826
+git status
