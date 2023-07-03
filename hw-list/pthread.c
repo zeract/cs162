@@ -24,7 +24,7 @@ void* threadfun(void* threadid) {
 int main(int argc, char* argv[]) {
   int rc;
   long t;
-  int nthreads = NUM_THREADS;
+  int nthreads = 4;
   char* targs = strcpy(malloc(100), "I am on the heap.");
 
   if (argc > 1) {

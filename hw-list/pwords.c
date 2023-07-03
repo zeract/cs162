@@ -28,9 +28,49 @@
 #include <ctype.h>
 #include <stdlib.h>
 #include <pthread.h>
-
 #include "word_count.h"
 #include "word_helpers.h"
+typedef struct{
+  word_count_list_t* word_counts;
+  FILE* input_file;
+}ThreadArgs;
+
+void * pcount_words(void* args) {
+  ThreadArgs* thread_args = (ThreadArgs*)args;
+  word_count_list_t* wclist = thread_args->word_counts;
+  FILE* infile = thread_args->input_file;
+  // errors
+  if( wclist == NULL || infile == NULL ){
+    return 1;
+  }
+  int num_words = 0;
+  int in_word = 0;
+  int word_count = 0;
+  int c;
+  char *word = NULL;
+  while((c = fgetc(infile)) != EOF){
+    if (isalpha(c)) {
+      if (!in_word) {
+        num_words++;
+        word = (char *)malloc(64 * sizeof(char));
+        in_word = 1;
+      }
+      word[word_count++] = tolower(c);
+    } 
+    else 
+    {
+      if( word != NULL){
+        word[word_count] = '\0';
+        add_word(wclist,word);
+        free(word);
+        word = NULL;
+      }
+      word_count = 0;
+      in_word = 0;
+    }
+  }
+  return 0;
+}
 
 /*
  * main - handle command line, spawning one thread per file.
@@ -45,10 +85,35 @@ int main(int argc, char* argv[]) {
     count_words(&word_counts, stdin);
   } else {
     /* TODO */
+    int nthreads = argc-1;
+    pthread_t threads[nthreads];
+    for (long t = 0; t < nthreads; t++) {
+      FILE* infile = NULL;
+      infile = fopen(argv[t+1],"r");
+      if (infile == NULL){
+        fprintf(stderr, "File does not exist.\n");
+        return 1;
+      }
+      ThreadArgs thread_args = {&word_counts,infile};
+      
+      int rc = pthread_create(&threads[t], NULL, (void *)pcount_words, &thread_args);
+      if (rc) {
+        printf("ERROR; return code from pthread_create() is %d\n", rc);
+        exit(-1);
+      }
+    }
+    for (long t = 0; t < nthreads; t++) {
+      pthread_join(threads[t], NULL);
+    }
+    
   }
-
+  
   /* Output final result of all threads' work. */
   wordcount_sort(&word_counts, less_count);
   fprint_words(&word_counts, stdout);
+  if(argc > 1){
+    /* Last thing that main() should do */
+    pthread_exit(NULL);
+  }
   return 0;
 }

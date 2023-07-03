@@ -1,0 +1,52 @@
+1.Run GDB on the map executable.
+gdb ./map
+2.Set a breakpoint at the beginning of the program’s execution.
+b main
+3.Run the program until the breakpoint.
+r
+4.What memory address does argv store?
+0x7fffffffe078
+5.Describe what’s located at that memory address. (What does argv point to?)
+the argv point to the address of the parameters.
+6.Step until you reach the first call to recur.
+step
+7.What is the memory address of the recur function?
+0x5555555546cd
+8.Step into the first call to recur.
+step
+9.Step until you reach the if statement.
+step
+10.Switch into assembly view.
+layout asm
+11.Step over instructions until you reach the callq instruction (or the call instruction if you are using QEMU).
+step
+12.What values are in all the registers?
+info reg
+13.Step into the callq instruction.
+step
+14.Switch back to C code mode.
+layout src
+15.Now print out the current call stack. Hint: what does the backtrace command do?
+bt
+16.Now set a breakpoint on the recur function which is only triggered when the argument is 0.
+break recur if $rdi == 0
+17.Continue until the breakpoint is hit.
+c
+18.Print the call stack now.
+bt
+19.Now go up the call stack until you reach main. What was argc?
+up , argc is 1
+20.Now step until the return statement in recur.
+s
+21.Switch back into the assembly view.
+layout asm
+22.Which instructions correspond to the return 0 in C?
+
+23.Now switch back to the source layout.
+layout src
+24.Finish the remaining 3 function calls.
+c
+25.Run the program to completion.
+c
+26.Quit GDB.
+q
